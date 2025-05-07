@@ -1,0 +1,17 @@
+"Project Report
+
+Hurdles I have faced so far:
+
+One of the main challenges I faced was figuring out how to keep track of the original location of each file that is moved to the trash. Since the script moves files to a single folder, I need to remember where each file came from in case they need to be restored later.
+
+
+How did I solve them:
+
+I created a .trashinfo file that logs the original path of each file when it is moved to the trash.
+
+
+Next Steps:
+
+Add more error checking.
+Polish with better formatting and comments.
+Create a –help command that shows you how to use the script."
